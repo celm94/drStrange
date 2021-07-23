@@ -1,7 +1,7 @@
 package tarea1;
 abstract class Personaje {
-    private static final int gana = 1;
     private static final int pierde = 0;
+    private static final int gana = 1;
 
     private String nombre;
     private int vida;

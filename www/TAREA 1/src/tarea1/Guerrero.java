@@ -4,4 +4,6 @@ public interface Guerrero {
 
      void atacar();
 
+
+
 }
