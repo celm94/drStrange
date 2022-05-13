@@ -35,8 +35,9 @@ public class ListaPelicula {
         for(int p=0; p<listapeliculas.size(); p++)
         {
             listaP+= ""+(p+1)+listapeliculas.get(p).GetNombrepel();
+            System.out.println(listaP);
         }
-        System.out.println(listaP);
+
     }
 
     public void VerPeliculas()
@@ -49,10 +50,11 @@ public class ListaPelicula {
             pelis+="TIPO: "+ listapeliculas.get(a).GetTipo()+"\n";
             pelis+="GENERO: "+ listapeliculas.get(a).GetGenero()+"\n";
             pelis+="SINOPSIS: "+ listapeliculas.get(a).GetSinopsis()+"\n";
+            System.out.println(pelis);
 
 
         }
-        System.out.println(pelis);
+
 
     }
 

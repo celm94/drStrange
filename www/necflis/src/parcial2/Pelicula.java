@@ -21,7 +21,7 @@ public class Pelicula
     }
     public void SetNombrepel(String nombrepel)
     {
-        this.nombrepel = this.nombrepel;
+        this.nombrepel = nombrepel;
     }
 //tipo
     public String GetTipo()
@@ -30,7 +30,7 @@ public class Pelicula
     }
     public void SetTipo(String tipo)
     {
-        this.tipo = this.tipo;
+        this.tipo = tipo;
     }
 
 //genero
@@ -40,7 +40,7 @@ public class Pelicula
     }
     public void SetGenero(String genero)
     {
-        this.genero = this.genero;
+        this.genero = genero;
     }
     //sinopsis
     public String GetSinopsis()
@@ -49,7 +49,7 @@ public class Pelicula
     }
     public void SetSinopsis(String sinopsis)
     {
-        this.sinopsis = this.sinopsis;
+        this.sinopsis = sinopsis;
     }
 
 

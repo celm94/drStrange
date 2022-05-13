@@ -10,7 +10,6 @@ public class ListaCliente {
     Scanner scan = new Scanner(System.in);
 
     ArrayList<Cliente> listaclientes = new ArrayList();
-
 //ingreso de valores
 
     public void AñadirCliente()
@@ -30,16 +29,6 @@ public class ListaCliente {
         listaclientes.add(cliente);
     }
 
-    public void VerListadoClientes()
-    {
-        String listac = "";
-        for(int j=0; j<listaclientes.size(); j++)
-        {
-            listac= "CLIENTE "+(j+1)+listaclientes.get(j).GetNombre();
-        }
-        System.out.println(listac);
-    }
-
     public void Verclientes()
     {
         String clients = "";
@@ -51,10 +40,19 @@ public class ListaCliente {
             clients+="EDAD: "+listaclientes.get(i).GetEdad()+ '\n';
             System.out.println("");
             System.out.println("");
+            System.out.println(clients);
         }
 
-        System.out.println(clients);
+
     }
 
+    public void VerListadoClientes() {
+        String listac = "";
+        for(int j=0; j<listaclientes.size(); j++)
+        {
+            listac= "CLIENTE "+(j+1)+": " + listaclientes.get(j).GetNombre();
+            System.out.println(listac);
+        }
 
+    }
 }

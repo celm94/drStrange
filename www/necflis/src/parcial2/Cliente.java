@@ -19,7 +19,7 @@ public class Cliente
     }
     public void SetNombre(String nombre)
     {
-        this.nombre = this.nombre;
+        this.nombre = nombre;
     }
     //dirección
     public String GetDireccion()
